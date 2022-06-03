@@ -10,6 +10,8 @@ isso quer dizer que após três conexões de clientes, o servidor será automati
 é possível observar que o servidor irá escutar a comunicação pela porta 8082 (esse valor foi escolhido de forma aleatória).
 Por este motivo, no código do cliente, também usamos essa mesma porta. Caso você mude a porta do servidor, você também deverá mudar no cliente.
 
+Para executar esta aplicação em Cedro utilize o seguinte comando: docker run --name chatpedro 80ef14dd8ffd
+
 
 ##  Porta do servidor:
 
